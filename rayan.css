@@ -167,7 +167,7 @@ ul.menu li:last-child:hover input {
   text-align: justify;
 } */
 
-.container {
+.container-susu {
   display: flex;
   background-image: url("images/back-img1.jpg");
   background-size: cover;
@@ -395,4 +395,26 @@ ul.menu li:last-child:hover input {
 }
 .child-8 a i {
   padding-left: 10px;
+}
+
+footer {
+  background-color: #393a3d;
+}
+
+.container-h3 {
+  color: #fff;
+  padding-top: 50px;
+}
+.container-a {
+  text-decoration: none;
+  color: #f3f2f2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.container-a:hover {
+  text-decoration: underline;
+}
+.col {
+  display: flex;
+  flex-direction: column;
 }
